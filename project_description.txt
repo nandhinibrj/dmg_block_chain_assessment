@@ -1,0 +1,83 @@
+Thank you for your interest in the Senior Software Engineer position at DMG Blockchain Solutions. This technical assignment is designed to assess your skills and knowledge in TypeScript or JavaScript, PostgreSQL, REST API design and Implementation. 
+
+Upon completing the assignment, please share the Github link with vijendra (vij@dmgblockchain.com). If you are not familiar with Github, feel free to zip the project and share it as an attachment 😄
+
+---
+
+# 🖇️ Description
+
+Take-home coding challenge for a Senior Software Engineer focusing on Bitcoin mining facility management. The challenge involves creating a basic system for monitoring and managing Bitcoin mining facilities.
+
+**Title:** Bitcoin Mining Facility Management System
+
+**Description:** You are tasked with building a Bitcoin mining facility management system that allows users to monitor and manage mining operations. The system should provide a dashboard for tracking mining statistics, managing mining hardware, and analyzing mining profitability.
+
+# 🖇️ Tech Stack
+
+- TypeScript, JavaScript, Node.js, RESTful API, PostgreSQL
+
+# 🤠 Requirements
+
+**Frontend (React or any other framework):**
+
+1. Create a dashboard page that displays essential mining statistics, including :
+    - Total hash rate.
+    - Number of active miners.
+    - Bitcoin price.
+    - Mining revenue.
+    - Mining difficulty.Please look for mock data at the bottom.
+2. Implement a page to manage mining hardware. Users should be able to:
+    - Add new mining hardware
+    - Edit existing hardware details (e.g., name, location, hashrate)
+    - Delete mining hardware
+3. Build an analysis page:
+    - During a 10 day period how many hashes does an Antminer S1 expect to   complete?
+    - We would expect to mine 7 bitcoin every 10 ExaHash. How many bitcoin does an Antminer S1 expect to win over 10 days?
+    - Our Antminer S1 really won 1 bitcoin over a 10 day period. What percent of expected yield did it achieve? What would we expect the miners average hashrate to have been over the period?
+
+Nice to have: an additional “analysis” module for the analysis page 
+
+**Backend (Node.js):**
+
+1. Create RESTful API endpoints for the frontend to interact with, including:
+    - CRUD operations for mining hardware
+    - An endpoint to fetch mining statistics
+2. Store Miner Data In memory.
+3. Fetch real-time Bitcoin price and mining difficulty data from a public API (e.g., [CoinGecko API](https://www.coingecko.com/en/api/documentation) or [Blockchain API](https://www.blockchain.com/explorer/api/q) ) and provide this data to the frontend.
+
+## 💥 Guidelines:
+
+- Use TypeScript for type safety or JavaScript.
+- Implement user authentication (basic username/password authentication is sufficient) JWT Token base.
+- Ensure proper error handling and validation for API endpoints.
+- Write unit for REST API function only.
+
+---
+
+# 🤓 Bonus Points:
+
+- Implement data caching to reduce API calls to external services.
+- Dockerize the application for easy deployment.
+
+---
+
+# 🌻 Submission:
+
+1. Provide a GitHub repository with your code at vij@dmgblockchain.com
+2. Include clear setup instructions in a README.
+3. Add comments and documentation to your code where necessary.
+
+# 🌻 **Evaluation Criteria:**
+
+Your submission will be evaluated based on the following criteria:
+
+- Code quality and organization.
+- UI/UX design and usability.
+- Correctness and functionality of the application.
+- Proper error handling and validation.
+- Use of best practices and design patterns.
+- Bonus points for additional features and optimizations.
+
+Feel free to customize this challenge according to your specific needs or add more details as necessary. Good luck with your hiring process!
+
+[MOCK DATA for Senior Software Engineer Take Home:](https://www.notion.so/MOCK-DATA-for-Senior-Software-Engineer-Take-Home-f3b4df7073bc459da5e8d3e010dfba3f?pvs=21)
